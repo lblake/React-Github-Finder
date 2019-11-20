@@ -9,9 +9,8 @@ class Navbar extends Component {
 
   static propTypes = {
     title: PropTypes.string.isRequired,
-    icon: this.propTypes.string.isRequired
+    icon: PropTypes.string.isRequired
   };
-
   render() {
     return (
       <div>
